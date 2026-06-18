@@ -11,11 +11,16 @@ Galaxy → Star → Planet → Moon → Comet
 
 ## How to Run
 1. Clone the repository
+```bash
+   git clone https://github.com/Ryn-Iad/fcc-universe-database.git
+```
+
 2. Restore the database
 ```bash
    psql -U postgres < universe.sql
 ```
-3. Connect
+
+3. Connect to the database
 ```bash
    psql --username=freecodecamp --dbname=universe
 ```
